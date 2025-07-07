@@ -36,7 +36,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'https://try-catch.life',
+    // hostname: 'https://try-catch.life',
 
     logo: "/logo.svg",
 
@@ -167,11 +167,11 @@ export default defineUserConfig({
      */
     comment: {
       provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-      comment: true,
-      repo: 'ziqingchuan/ziqingchuan.github.io',
-      repoId: 'R_kgDOO_1C0A',
-      category: 'Announcements',
-      categoryId: 'DIC_kwDOO_1C0M4Cr4Nu',
+      comment: false,
+      repo: 'Christine-0-new/v.github.io',
+      repoId: '',
+      category: '',
+      categoryId: '',
       mapping: 'pathname',
       reactionsEnabled: true,
       inputPosition: 'top',
