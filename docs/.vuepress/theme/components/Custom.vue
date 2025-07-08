@@ -2,9 +2,9 @@
   <div class="container">
     <div class="header">
       <div class="head-social">
-        <img style="width: 20px" src="/icons/right.svg" alt="right"><router-link to="/blog/" class="head-social-avatar"><img src="/logo.svg" alt="avatar"></router-link><img style="width: 20px" src="/icons/left.svg" alt="left">
+        <router-link to="/blog/" class="head-social-avatar"><img src="/xixi.jpg" alt="avatar"></router-link>
       </div>
-      <img src="/images/welcome.svg" alt="welcome">
+      <img src="/images/welcome2.svg" alt="welcome">
     </div>
     <div class="about-me">
 
@@ -34,6 +34,7 @@
   z-index: 1;
   width: 100%;
   height: 100%;
+  background-color: rgba(240, 222, 201, 0.25);
   overflow-x: hidden !important;
   overflow-y: hidden !important;
 }
@@ -61,7 +62,7 @@ canvas {
   .head-social-avatar {
     margin: 10px;
     border-radius: 50%;
-    width: 50px;
+    width: 80px;
     overflow: hidden;
     transition: transform 0.2s;
 
@@ -107,8 +108,6 @@ canvas {
 import AboutMeText from "./AboutMeText.vue";
 import AboutMeSkill from "./AboutMeSkill.vue";
 import AboutMeCharacter from "./AboutMeCharacter.vue";
-import AboutMeLanguage from "./AboutMeLanguage.vue";
-import AboutMeContribution from "./AboutMeContribution.vue";
 import AboutMeAbility from "./AboutMeAbility.vue";
 </script>
 

@@ -27,7 +27,7 @@ export default defineUserConfig({
       {
         rel: "icon",
         type: "image/png",
-        href: "/logo.svg",
+        href: "/logo.svg", // 标签页的logo
       },
     ],
   ],
@@ -38,7 +38,7 @@ export default defineUserConfig({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
     // hostname: 'https://try-catch.life',
 
-    logo: "/logo.svg",
+    logo: "/xixi.jpg",
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',

@@ -17,7 +17,7 @@ import navbar from "./navbar";
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: "/logo.svg",
+  logo: "",
 
   appearance: true, // 配置 深色模式
 
@@ -46,7 +46,7 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: "/logo.svg",
+    avatar: "/xixi.jpg",
     name: "星河",
     circle: true,
     location: '浙江省 杭州市',
