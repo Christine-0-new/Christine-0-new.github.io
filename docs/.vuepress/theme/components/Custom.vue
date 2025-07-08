@@ -10,12 +10,7 @@
 
       <div class="card-content grid-row-3-2">
         <AboutMeSkill/>
-        <AboutMeLanguage/>
-      </div>
-
-      <div class="card-content grid-row-2-3">
         <AboutMeAbility/>
-        <AboutMeContribution/>
       </div>
       <div class="card-content grid-row-1-1">
         <AboutMeText>

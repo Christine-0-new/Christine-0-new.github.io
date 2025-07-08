@@ -39,7 +39,7 @@ export default defineThemeConfig({
   /* 站点页脚 */
   footer: {
     message: '由 <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> 提供技术支持，主题来自 <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-    copyright: '© 2025  try-catch.life',
+    copyright: '© 2025  Christine.yb',
   },
 
   /**
@@ -47,10 +47,10 @@ export default defineThemeConfig({
    */
   profile: {
     avatar: "/logo.svg",
-    name: "睡个回笼觉~",
+    name: "星河",
     circle: true,
     location: '浙江省 杭州市',
-    organization: 'Nanjing University',
+    organization: 'Nanjing Normal University',
   },
 
   navbar,

@@ -16,9 +16,9 @@ import { plumeTheme } from "vuepress-theme-plume";
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "码不停蹄",
+  title: "星河",
 
-  description: "睡个回笼觉的个人博客",
+  description: "星河的个人博客",
 
   head: [
     // 配置站点图标
@@ -119,7 +119,7 @@ export default defineUserConfig({
     markdown: {
     //   abbr: true,         // 启用 abbr 语法  *[label]: content
     //   annotation: true,   // 启用 annotation 语法  [+label]: content
-    //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
+      pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
     //   caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
     //   plot: true,         // 启用隐秘文本语法 !!xxxx!!
     //   bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)

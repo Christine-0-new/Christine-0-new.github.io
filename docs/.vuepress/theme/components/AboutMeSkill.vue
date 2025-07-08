@@ -31,31 +31,27 @@ import { ref } from 'vue';
 
 // 技能
 const technology = ref([
-  // { type: 'Vue', icon: 'logos:vue' },
-  { type: 'Vue', icon: '/skills/Vue.svg' },
-  { type: 'Pinia', icon: '/skills/pinia.svg' },
-  { type: 'JavaScript', icon: '/skills/js.svg' },
-  { type: 'TypeScript', icon: '/skills/ts.svg' },
-  { type: 'CSS3', icon: '/skills/css.svg' },
-  { type: 'HTML5', icon: '/skills/html.svg' },
-  { type: 'Sass', icon:  '/skills/sass.svg' },
-  { type: 'Python', icon: '/skills/Python.svg' },
-  { type: 'Java', icon:  '/skills/java.svg' },
+  { type: '墨刀', icon: '/skills/墨刀.svg' },
+  { type: 'VSCode', icon: '/skills/vscode.svg' },
+  { type: 'Figma', icon: '/skills/Figma.svg' },
+  { type: 'Xmind', icon: '/skills/xmind.svg' },
+  { type: '腾讯元宝', icon: '/skills/yuanbao.svg' },
+  { type: '豆包', icon: '/skills/doubao.svg' },
+  { type: 'Gemini', icon: '/skills/gemini.svg' },
+    { type: '即梦', icon: '/skills/即梦.svg' },
 ]);
 
 // 工具
 const tools = ref([
-  { type: 'WebStorm', icon: '/skills/webstorm.svg' },
-  { type: 'Pycharm', icon: '/skills/Pycharm.svg' },
-  { type: 'IntelliJ IDEA', icon: '/skills/IDEA.svg' },
-  { type: 'Git', icon: '/skills/git.svg' },
-  { type: 'VSCode', icon: '/skills/vscode.svg' },
-  { type: 'npm', icon: '/skills/npm.svg' },
-  { type: 'Vite', icon: '/skills/vite.svg' },
-  { type: 'Vercel', icon: '/skills/vercel.svg' },
   { type: 'Deepseek', icon: '/skills/deepseek.svg' },
   { type: 'Coze', icon: '/skills/Coze.svg' },
   { type: 'Manus', icon: '/skills/manus.svg' },
+  { type: '飞书', icon: '/skills/lark.svg' },
+  { type: '秒哒', icon: '/skills/秒哒.png' },
+  { type: '即时设计', icon: '/skills/即时设计.svg' },
+  { type: 'Adobe', icon: '/skills/adobe.svg' },
+  { type: 'ChatGPT', icon: '/skills/chatgpt.svg' },
+  { type: 'Cursor', icon: '/skills/cursor.webp' },
 ]);
 </script>
 

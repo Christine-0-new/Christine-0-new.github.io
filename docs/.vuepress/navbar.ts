@@ -7,7 +7,7 @@
 import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export default defineNavbarConfig([
-  { text: "博客", link: "/blog/", icon: "/icons/blog.svg" },
+  { text: "作品", link: "/blog/", icon: "/icons/blog.svg" },
   { text: "标签", link: "/blog/tags/", icon: "/icons/tag.svg" },
   { text: "分类", link: "/blog/categories/", icon: "/icons/butterfly.svg" },
   { text: "归档", link: "/blog/archives/", icon: "/icons/guidang.svg" },
@@ -22,5 +22,5 @@ export default defineNavbarConfig([
   //     {text: "Echarts学习", link: "https://try-catch.life/echarts-demo/", icon: "/icons/chart-logo.svg"}
   //   ],
   // },
-  { text: "关于我", link: "/我的简历/CurriculumVitae.md", icon: "/icons/heart.svg" },
+  { text: "我的简历", link: "/我的简历/CurriculumVitae.md", icon: "/icons/heart.svg" },
 ]);
