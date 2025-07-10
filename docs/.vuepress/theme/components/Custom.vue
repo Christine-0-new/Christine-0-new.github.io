@@ -34,6 +34,7 @@
   z-index: 1;
   width: 100%;
   height: 100%;
+  padding-bottom: 50px;
   background-color: rgba(240, 222, 201, 0.25);
   overflow-x: hidden !important;
   overflow-y: hidden !important;
